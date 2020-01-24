@@ -1,4 +1,4 @@
-class _Node {
+class Node {
   constructor(value, next, prev) {
     this.value = value;
     this.next = next;
@@ -6,4 +6,4 @@ class _Node {
   }
 }
 
-module.exports = _Node;
+module.exports = Node;
